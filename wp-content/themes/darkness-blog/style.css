@@ -1,0 +1,146 @@
+/*!
+Theme Name: Darkness Blog
+Theme URI: https://adorethemes.com/downloads/darkness-blog/
+Author: Adore Themes
+Author URI: https://adorethemes.com/
+Description: Darkness Blog ( Child theme of Glowing Blog ) is a minimalist and lightweight WordPress theme designed for creating professional blogging websites. The theme has a clean design and is ideal for various blog types, such as fashion, lifestyle, travel, food, and photography. Darkness Blog is mobile-friendly and cross-browser compatible, making it accessible across various devices and screen sizes. The theme is also translation-ready, allowing you to create blogs in any language. Overall, Darkness Blog offers a user-friendly interface, modern and creative design, and range of features suitable for building engaging and unique blog websites. Live preview : https://demo.adorethemes.com/darkness-blog/
+Version: 1.0.1
+Requires at least: 5.0
+Requires PHP: 7.4
+Tested up to: 6.5
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Template: glowing-blog
+Text Domain: darkness-blog
+Tags: custom-background, custom-header, custom-logo, custom-menu, featured-images, footer-widgets, left-sidebar, right-sidebar, blog, one-column, portfolio, photography, theme-options, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned.
+
+Darkness Blog is based on Underscores https://underscores.me/, (C) 2012-2020 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
+
+*/
+
+/* Root
+	========================================================================== */
+	:root {
+		--post-item-background: #111216;
+		--body-background: #30323e;
+		--primary-color: #fab800;
+		--header-text-color: #ffffff;
+		--color-text: #ffffff;
+		--color-background: #fff;
+
+		--glow-box-shadow-color: #000000;
+		--glow-border-color: rgba(255,255,255,0.2);
+	}
+
+	.main-navigation ul.nav-menu {
+		background: var(--post-item-background);
+	}
+
+/* Start Banner Section
+--------------------------------------------- */
+.banner-section .banner-section-wrapper.style-3 .slick-slide {
+	padding: 5px;
+}
+.banner-section .banner-section-wrapper.style-3 .post-item {
+	text-align: center;
+	aspect-ratio: unset;
+	border-radius: 15px;
+	min-height: 510px;
+	justify-content: flex-end;
+}
+.banner-section .banner-section-wrapper.style-3 .post-item .post-item-content{
+	padding: 25px;
+	max-width: 900px;
+	margin-inline: auto;
+}
+.banner-section .banner-section-wrapper.style-3 .post-item .post-item-content .entry-meta,
+.banner-section .banner-section-wrapper.style-3 .post-item .entry-cat .post-categories{
+	justify-content: center;
+}
+.banner-section .banner-section-wrapper.style-3 .post-item .post-item-content .entry-title {
+	font-size: var(--font-size-xl);
+}
+@media (max-width: 768px) {
+	.banner-section .banner-section-wrapper.style-3 .post-item {
+		min-height: 410px;
+	}
+	.banner-section .banner-section-wrapper.style-3 .post-item .post-item-content .entry-title {
+		font-size: var(--font-size-lg);
+	}
+}
+@media (max-width: 600px) {
+	.banner-section .banner-section-wrapper.style-3 .post-item {
+		min-height: 380px;
+	}
+	.banner-section .banner-section-wrapper.style-3 .post-item .post-item-content .entry-title {
+		font-size: var(--font-size-md);
+	}
+}
+/* End Banner Section
+--------------------------------------------- */
+
+/* Popular Section
+--------------------------------------------- */
+div#glowing_blog_popular_posts_section {
+	display: none;
+}
+
+/* Override pagination CSS
+--------------------------------------------- */
+nav.navigation.pagination {
+	display: block !important;
+}
+
+/* Preloader
+--------------------------------------------- */
+#loader {
+	background-color: var(--body-background);
+}
+
+#preloader .pre-loader-7 {
+	--c: no-repeat linear-gradient(#fff 0 0);
+}
+
+/* Post navigations
+--------------------------------------------- */
+.site-main .post-navigation, .site-main .posts-navigation {
+	border-block: 1px solid var( --glow-border-color );
+}
+
+/* Pagination CSS
+--------------------------------------------- */
+nav.navigation.pagination .nav-links span, nav.navigation.pagination .nav-links a {
+	border-color: var( --glow-border-color );
+}
+
+.post-item.overlay-post{
+	border: none;
+}
+
+.newsletter-section .newsletter-section-wrapper .newsletter-form button[type="submit"],
+.navigation-search .navigation-search-wrap .navigation-search-form .search-form input.search-submit,
+.widget.widget_search .wp-block-search__inside-wrapper .wp-block-search__button{
+	background-color: var(--primary-color);
+}
+.navigation-search .navigation-search-wrap .navigation-search-form .search-form label input:focus,
+.widget.widget_search .wp-block-search__inside-wrapper .wp-block-search__input:focus,
+.widget.widget_search .wp-block-search__inside-wrapper .wp-block-search__input::placeholder {
+	color: #fff;
+}
+
+.grid-widget .post-item .post-item-image {
+	background-color: #30323e;
+}
+
+input[type="text"]:focus, input[type="email"]:focus, input[type="url"]:focus, input[type="password"]:focus, input[type="search"]:focus, input[type="number"]:focus, input[type="tel"]:focus, input[type="range"]:focus, input[type="date"]:focus, input[type="month"]:focus, input[type="week"]:focus, input[type="time"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="color"]:focus, textarea:focus,
+input[type="text"], input[type="email"], input[type="url"], input[type="password"], input[type="search"], input[type="number"], input[type="tel"], input[type="range"], input[type="date"], input[type="month"], input[type="week"], input[type="time"], input[type="datetime"], input[type="datetime-local"], input[type="color"], textarea{
+	color: #fff;
+}
+

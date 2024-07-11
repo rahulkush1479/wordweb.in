@@ -1,0 +1,96 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-03-10 14:50+0545\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: header.php:26
+msgid "Skip to content"
+msgstr ""
+
+#: search.php:21
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: inc/demo-import.php:6
+msgid "Demo content files for Darkness Blog Theme."
+msgstr ""
+
+#: inc/demo-import.php:8
+msgid "Click here for Demo File download"
+msgstr ""
+
+#: inc/customizer/banner.php:13
+msgid "Banner Section"
+msgstr ""
+
+#: inc/customizer/banner.php:32
+msgid "Enable Banner Section"
+msgstr ""
+
+#: inc/customizer/banner.php:52
+msgid "Content type:"
+msgstr ""
+
+#: inc/customizer/banner.php:53
+msgid "Choose where you want to render the content from."
+msgstr ""
+
+#: inc/customizer/banner.php:58
+msgid "Post"
+msgstr ""
+
+#: inc/customizer/banner.php:59 inc/customizer/banner.php:97
+msgid "Category"
+msgstr ""
+
+#: inc/customizer/banner.php:76
+#, php-format
+msgid "Post %d"
+msgstr ""
+
+#: inc/customizer/banner.php:109 inc/frontpage-sections/banner.php:42
+msgid "Read More"
+msgstr ""
+
+#: inc/customizer/banner.php:117
+msgid "Button Label"
+msgstr ""
+
+#: inc/customizer/customizer.php:45
+msgid "Pagination Style"
+msgstr ""
+
+#: inc/customizer/customizer.php:49
+msgid "Default (Older/Newer)"
+msgstr ""
+
+#: inc/customizer/customizer.php:50
+msgid "Numeric"
+msgstr ""
+
+#: inc/frontpage-sections/banner.php:68
+msgid " min"
+msgstr ""
+
+#: inc/upgrade-to-pro/class-customize.php:76
+msgid "Darkness Blog Pro"
+msgstr ""
+
+#: inc/upgrade-to-pro/class-customize.php:77
+msgid "Go Pro"
+msgstr ""
